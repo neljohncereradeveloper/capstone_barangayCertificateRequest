@@ -1,0 +1,47 @@
+.settings {
+  overflow: scroll;
+  border-top: 1px solid rgb(194, 184, 184);
+}
+
+.barangay__council,
+.barangay__informations {
+  border-bottom: 1px solid rgb(212, 194, 194);
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
+}
+.btn-edit {
+  font-size: 14px;
+  margin: 12px;
+  height: 35px;
+  width: 100px;
+}
+.barangay__council .barangay__member,
+.barangay__informations .barangay__info {
+  display: flex;
+  flex-direction: row;
+}
+.barangay__council .barangay__member p,
+.barangay__informations .barangay__info p {
+  color: rgb(170, 162, 162);
+  margin-top: 20px;
+  font-size: 16px;
+  width: 200px;
+}
+.barangay__council .barangay__member input,
+.barangay__informations .barangay__info input {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 450;
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+  margin-top: 10px;
+}
+.barangay__council-header,
+.barangay__informations-header {
+  color: rgb(170, 162, 162);
+  font-weight: 600;
+  font-size: 18px;
+}

@@ -1,0 +1,17 @@
+#pageDropDown {
+  margin: 0;
+  width: 60px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.pagination {
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.table > thead > tr > th {
+  font-size: 14px;
+}
+.table > tbody > tr > td {
+  font-size: 14px;
+}

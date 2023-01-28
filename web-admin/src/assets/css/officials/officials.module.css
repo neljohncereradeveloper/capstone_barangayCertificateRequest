@@ -1,0 +1,10 @@
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  overflow: scroll;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}

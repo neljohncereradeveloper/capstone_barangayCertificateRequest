@@ -1,0 +1,49 @@
+.topbar__registration {
+  width: 100%;
+  position: fixed;
+}
+.user__registration {
+  display: flex;
+  flex-direction: row;
+  width: 100% !important;
+  height: 100%;
+}
+.form__container {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.form__container form {
+  margin-top: 60px !important;
+  padding: 0;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: white;
+  border: none;
+  box-shadow: none;
+}
+.form__container form .button-group button {
+  width: 200px;
+}
+
+.user__registration-container {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 0.5px solid rgb(226, 222, 222);
+}
+
+.user__registration-container label {
+  font-size: 14px;
+}
+
+.user__registration-container p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.user__registration-container .mb-2 select {
+  width: 100%;
+  height: 40px;
+  outline-width: none;
+  border: 1px solid rgb(212, 208, 208);
+}

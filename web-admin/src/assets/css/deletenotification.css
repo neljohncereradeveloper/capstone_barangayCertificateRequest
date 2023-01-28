@@ -1,0 +1,14 @@
+.deleteNotification {
+  height: 130px;
+  width: 200px;
+}
+
+.deleteNotification .deleteNotification__buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.deleteNotification .deleteNotification__buttons button {
+  width: 400px;
+  height: 35px;
+}

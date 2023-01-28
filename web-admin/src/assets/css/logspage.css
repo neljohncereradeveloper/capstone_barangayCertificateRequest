@@ -1,0 +1,52 @@
+.logs__table {
+  height: 100%;
+  overflow: scroll;
+}
+.logs__container {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid whitesmoke;
+}
+.logs__link {
+  background-color: #6c757d;
+  color: white;
+  text-align: center;
+  width: 110px;
+  height: 35px;
+  border-radius: 14px;
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.logs__link:hover {
+  background-color: #394046;
+  cursor: pointer;
+  color: white;
+}
+.logs__table {
+  height: 100vh;
+  overflow: scroll;
+}
+.logsTable {
+  height: 100%;
+  max-height: 400px;
+  overflow: scroll;
+}
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+.pageNumbers li {
+  font-size: 12px;
+}
+
+/* 
+.loading {
+  padding: 0;
+  border: 1px solid black;
+} */

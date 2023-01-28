@@ -1,0 +1,33 @@
+.container {
+  border: 1px solid rgb(187, 187, 187);
+  height: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.datee {
+  color: rgb(8, 8, 185);
+}
+.para {
+  color: rgb(12, 90, 12);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.pending {
+  color: yellow;
+}
+.approve {
+  color: blue;
+}
+.disapprove,
+.disapprovereason {
+  color: red;
+}

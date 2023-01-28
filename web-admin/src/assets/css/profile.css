@@ -1,0 +1,104 @@
+.profile {
+  height: 100%;
+  max-height: 550px;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.row__1 .row__1-top img {
+  height: 180px;
+  width: 180px;
+  object-fit: contain;
+}
+.row__1 .row__1-top button {
+  margin-top: 140px;
+  width: 90px;
+}
+
+.row__1-data {
+  display: flex;
+  flex-direction: row;
+}
+.row__1-data label {
+  font-size: 18px;
+}
+.row__2 label {
+  font-size: 18px;
+}
+.row__1-data__left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex: 0.5;
+}
+/* Label Container */
+.row__1-data__left .label__container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.row__1-data__right .label__container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.row__2 .label__container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+/* Label Left */
+.row__1-data__left .label__container .label__left {
+  flex: 0.4;
+}
+.row__1-data__right .label__container .label__left {
+  flex: 0.4;
+}
+.row__2 .label__container .label__left {
+  flex: 0.2;
+}
+/* Label right the span */
+.row__1-data__left .label__container .label__right {
+  flex: 0.6;
+  font-weight: 600;
+  text-align: left;
+}
+.row__1-data__right .label__container .label__right {
+  flex: 0.6;
+  font-weight: 600;
+  text-align: left;
+}
+.row__2 .label__container .label__right {
+  flex: 0.8;
+  font-weight: 600;
+  text-align: left;
+}
+/* row 1 data right */
+.row__1-data__right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+.row__2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.row__2 button {
+  width: 200px;
+  color: black;
+  background-color: white;
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #eee;
+}

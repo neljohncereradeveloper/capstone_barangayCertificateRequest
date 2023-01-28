@@ -1,0 +1,102 @@
+.request__page {
+  height: 100%;
+  overflow: scroll;
+}
+
+.request__container {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid whitesmoke;
+}
+
+.request__link {
+  color: white;
+  text-align: center;
+  width: 110px;
+  height: 35px;
+  border-radius: 14px;
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.req__all {
+  background-color: #6c757d;
+}
+.req__all:hover {
+  background-color: #3c3f42;
+}
+.req__pending {
+  background-color: #ffc107;
+}
+.req__pending:hover {
+  background-color: #7c600b;
+}
+.req__approve {
+  background-color: #007bff;
+}
+.req__approve:hover {
+  background-color: #0d437c;
+}
+.req__disApprove {
+  background-color: #dc3545;
+}
+.req__disApprove:hover {
+  background-color: #740e18;
+}
+.request__link:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.btn__disApprove {
+  background-color: rgb(221, 59, 18);
+}
+.btn__disApprove:hover {
+  background-color: rgb(126, 28, 3);
+}
+
+.row__status-pending {
+  text-align: center;
+  color: white;
+  background-color: #ffc107;
+}
+.row__status-approve {
+  text-align: center;
+  color: white;
+  background-color: #007bff;
+}
+.row__status-disapprove {
+  text-align: center;
+  color: white;
+  background-color: #dc3545;
+}
+.column__status {
+  text-align: center;
+}
+.td_button,
+.th_action {
+  width: 150px;
+  text-align: center;
+}
+.print {
+  height: 35px;
+}
+.reques__table {
+  height: 100%;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+.pageNumbers li {
+  font-size: 12px;
+}

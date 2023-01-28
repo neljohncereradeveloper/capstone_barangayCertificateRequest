@@ -1,0 +1,19 @@
+.homePage {
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "container_1"
+    "container_2"
+    "container_3";
+}
+header {
+  grid-area: container_1;
+}
+main {
+  grid-area: container_2;
+}
+footer {
+  grid-area: container_3;
+}

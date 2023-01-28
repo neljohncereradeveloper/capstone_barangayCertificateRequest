@@ -1,0 +1,9 @@
+@media only screen and (min-device-width: 481px) and (max-device-width: 1367px) and (orientation: landscape) {
+  .banner {
+    height: 500px;
+    padding-left: 100px;
+  }
+  .title {
+    margin-top: 120px;
+  }
+}

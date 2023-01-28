@@ -1,0 +1,206 @@
+.print__header .btn {
+  width: 130px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.print__request {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(82, 150, 82);
+  overflow: scroll;
+}
+/* header */
+.print__request-header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid rgb(82, 150, 82);
+  height: 300px;
+}
+.print__request-header__left {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.print__request-header__left img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+.print__request-header__center {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.print__request-header__center p {
+  font-size: 18px;
+  font-weight: 450;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.print__request-header__center p span {
+  font-weight: 700;
+}
+.print__request-header__center p:nth-child(1) {
+  margin-top: 40px;
+}
+.print__request-header__center p:nth-child(5) {
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.print__request-header__right {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.print__request-header__right img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+/* body */
+.print__request-body {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+/* body left*/
+.print__request-body__left {
+  border-right: 2px solid rgb(82, 150, 82);
+  height: 100%;
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.print__request-body__left p:nth-child(1) {
+  color: rgb(255, 112, 112);
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+/* body left member*/
+.print__request-body__left .member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.print__request-body__left .punongbarangay {
+  margin-bottom: 40px;
+}
+.print__request-body__left .treasurer {
+  margin-top: 40px;
+}
+.print__request-body__left .secretary {
+  margin-top: 20px;
+}
+.print__request-body__left .davao {
+  width: 400px;
+  height: 150px;
+  object-fit: contain;
+}
+.print__request-body__left .member p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 650;
+  color: rgb(3, 3, 102);
+}
+.print__request-body__left .member span {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(3, 3, 102);
+}
+/* body right*/
+.print__request-body__right {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+}
+.print__request-body__right p:nth-child(1) {
+  font-size: 24px;
+  text-decoration: underline;
+  letter-spacing: 10px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.print__request-body__right .body {
+  text-align: justify;
+}
+.print__request-body__right .body p:nth-child(1) {
+  font-size: 16px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-style: italic;
+  margin-left: 10px;
+}
+.print__request-body__right .body p:nth-child(2),
+.print__request-body__right .body p:nth-child(3),
+.print__request-body__right .body p:nth-child(4),
+.print__request-body__right .body p:nth-child(5) {
+  text-indent: 50px;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.print__request-body__right .body p:nth-child(4) b {
+  text-decoration: underline;
+}
+.print__request-body__right .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.print__request-body__right .footer p:nth-child(1) {
+  margin: 0;
+  margin-top: 70px;
+  margin-right: 100px;
+  font-size: 20px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.print__request-body__right .footer p:nth-child(2) {
+  margin-right: 150px;
+  font-style: italic;
+}
+.print__request-body__right .footer p:nth-child(3) {
+  font-size: 12px;
+  margin-right: 150px;
+  margin-top: 220px;
+  font-style: italic;
+}
+/* PRINTING */
+@media print {
+  .print__request {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .sidebar {
+    display: none;
+  }
+  .print__header {
+    display: none;
+  }
+
+  @page :left {
+    margin: 30px;
+  }
+  @page :right {
+    margin: 30px;
+  }
+}

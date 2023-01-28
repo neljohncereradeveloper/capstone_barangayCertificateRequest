@@ -1,0 +1,38 @@
+.editProfile {
+  display: flex;
+  flex-direction: column;
+}
+.editProfile .MuiSvgIcon-root {
+  font-size: 60px;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.editProfile .editProfile__row-1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.editProfile .editProfile__row-1 .input__left {
+  margin-right: 10px;
+}
+.editProfile .editProfile__row-1 .editProfile__row-1__left {
+  flex: 0.5;
+}
+.editProfile .editProfile__row-1 .editProfile__row-1__right {
+  flex: 0.5;
+}
+
+.editProfile .editProfile__row-2 button {
+  width: 120px;
+}
+
+.editProfile .editProfile__row-2 button .MuiSvgIcon-root {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  margin-right: 8px;
+}

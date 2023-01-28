@@ -1,0 +1,102 @@
+.print__totalApprove {
+  border: none !important;
+}
+/* header */
+.print__request-header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid rgb(82, 150, 82);
+  height: 300px;
+}
+.print__request-header__left {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.print__request-header__left img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+.print__request-header__right {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.print__request-header__right img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+.print__approve-reports__body {
+  border-bottom: 1px solid rgb(82, 150, 82);
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+
+.print__approve-reports__body-left p:nth-child(1) {
+  color: rgb(150, 144, 144);
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.print__approve-reports__body-left p:nth-child(2) {
+  color: rgb(150, 144, 144);
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.print__approve-reports__body-left p:nth-child(3),
+.print__approve-reports__body-left p:nth-child(4) {
+  color: rgb(150, 144, 144);
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.print__approve-reports__body-left p:nth-child(4) {
+  margin-left: 30px;
+}
+.print__approve-reports__body-left {
+  flex: 1;
+}
+.print__approve-reports__body-right {
+  flex: 1;
+  padding-left: 200px;
+}
+.print__approve-reports__body-right p:nth-child(1),
+.print__approve-reports__body-right p:nth-child(2) {
+  color: rgb(150, 144, 144);
+  font-size: 16px;
+  font-weight: 500;
+}
+.print__approve-reports__body-right p:nth-child(1) {
+  margin-top: 105px;
+}
+.print__approve-reports__body-right p:nth-child(2) {
+  margin-left: 64px;
+}
+
+/* PRINTING */
+@media print {
+  .print__request {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .sidebar {
+    display: none;
+  }
+  .print__header {
+    display: none;
+  }
+
+  @page :left {
+    margin: 30px;
+  }
+  @page :right {
+    margin: 30px;
+  }
+}

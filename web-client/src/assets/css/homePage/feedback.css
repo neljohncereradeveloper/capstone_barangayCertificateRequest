@@ -1,0 +1,8 @@
+@media only screen and (min-device-width: 481px) and (max-device-width: 1367px) and (orientation: landscape) {
+  .main {
+    width: 50%;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

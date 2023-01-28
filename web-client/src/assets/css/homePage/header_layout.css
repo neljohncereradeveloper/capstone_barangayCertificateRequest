@@ -1,0 +1,82 @@
+header {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 47px 1fr 1fr;
+}
+/* Logo */
+.header__logo {
+  background-color: white;
+  grid-row: 1/2;
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  border-bottom: var(--border);
+}
+.header__logo button {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+/* Menuu */
+.header__menu {
+  grid-row: 2/3;
+  position: fixed;
+  width: 100%;
+  top: 50;
+  right: -100%;
+}
+.header__menu-show {
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  right: 0;
+}
+.header__menu-showWithPending {
+  position: fixed;
+  width: 100%;
+  top: 70px;
+  right: 0;
+}
+/* Header Out */
+.header__out {
+  grid-row: 3/4;
+}
+
+.request {
+  background-color: rgb(190, 206, 193);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  top: 45px;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+.request-hide {
+  display: none;
+}
+/* MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate */
+.request .MuiCircularProgress-root {
+  margin-top: 5px;
+}
+.request p {
+  color: rgb(63, 63, 61);
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1367px) and (orientation: landscape) {
+  .header__menu {
+    /* display: flex;
+    flex-direction: row; */
+  }
+}

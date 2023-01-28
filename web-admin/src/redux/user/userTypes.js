@@ -1,0 +1,11 @@
+export const USER_LOGGED_IN = "USER_LOGGED_IN";
+export const USER_LOGGED_OUT = "USER_LOGGED_OUT";
+export const SET_USER = "SET_USER";
+export const SET_REQUEST_COUNT = "SET_REQUEST_COUNT";
+export const PENDING_CLICK_TRUE = "PENDING_CLICK_TRUE";
+export const PENDING_CLICK_FALSE = "PENDING_CLICK_FALSE";
+export const SET_SETTINGS = "SET_SETTINGS";
+export const SET_BARANGAYIMAGES = "SET_BARANGAYIMAGES";
+export const MODAL_TRUE = "MODAL_TRUE";
+export const MODAL_FALSE = "MODAL_FALSE";
+export const SET_MODAL = "SET_MODAL";

@@ -1,0 +1,41 @@
+button {
+  font-size: 14px;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: none;
+  width: 40px;
+  color: white;
+  background-color: rgb(107, 127, 240);
+}
+button .MuiSvgIcon-root {
+  font-size: 16px;
+}
+button:hover {
+  background-color: rgb(44, 52, 100);
+}
+
+.table__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.search__container {
+  display: flex;
+}
+.search__container .table__search {
+  outline-width: 0;
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 385px;
+}
+.search__container input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.search__container .search__checkbox {
+  margin-top: 10px;
+}
+.search__container span {
+  margin-top: 4px;
+}

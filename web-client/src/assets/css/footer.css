@@ -1,0 +1,10 @@
+@media only screen and (min-device-width: 481px) and (max-device-width: 1367px) and (orientation: landscape) {
+  .footerr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sectionn {
+    width: 100%;
+  }
+}

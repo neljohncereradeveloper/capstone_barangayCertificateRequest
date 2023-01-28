@@ -1,0 +1,45 @@
+.form__report {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  height: 100px;
+  width: 100% !important;
+  border-radius: 0;
+}
+.form__report .mb-2:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.form__report .btn-secondary {
+  width: 130px;
+  margin-top: 20px;
+}
+
+.print__totalApprove {
+  border: 1px solid black;
+  height: 100%;
+  max-height: 11in;
+  overflow: scroll;
+}
+
+@media print {
+  .print__totalApprove {
+    margin: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .report_header {
+    display: none;
+  }
+  @page :left {
+    margin: 10px;
+  }
+  @page :right {
+    margin: 10px;
+  }
+}

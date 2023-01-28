@@ -1,0 +1,13 @@
+.userInformations__top {
+  padding-left: 5px;
+}
+
+.userInformations .userInformations__bottom button {
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.userInformations .userInformations__bottom button .MuiSvgIcon-root {
+  margin-right: 8px;
+}

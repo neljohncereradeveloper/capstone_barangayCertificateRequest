@@ -1,0 +1,43 @@
+:root {
+  --section-background: linear-gradient(to bottom, #ffffff, #d4ded8);
+  --section-inside-background: #e6f6eb;
+  --text-color: #305d40;
+  --subtext-color: #597d66;
+  --border: 1px solid #d4ded8;
+  --font-family-black: "Lato Black", sans-serif;
+  --font-title-size: 20px;
+  --font-family-bold: "Lato Bold", sans-serif;
+  --font-subtitle-size: 18px;
+  --font-family-regular: "Lato", sans-serif;
+  --font-regular-size: 16px;
+  --button-color: #305d40;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: "Lato Black";
+  font-weight: 900;
+  src: local("Lato"), url(./assets/fonts/Lato-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Lato Bold";
+  font-weight: 700;
+  src: local("Lato"), url(./assets/fonts/Lato-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: normal;
+  font-weight: normal;
+  src: local("Lato"), url(./assets/fonts/Lato-Regular.ttf) format("truetype");
+}
